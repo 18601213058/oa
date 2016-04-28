@@ -1,0 +1,232 @@
+    1  vi a.txt
+    2  git status
+    3  git add a.txt
+    4  git status
+    5  git commit -m "28dayUpdate01" a.txt
+    6  git status
+    7  git log
+    8  git log --pretty=oneline
+    9  vi a.txt
+   10  git status
+   11  git diff
+   12  git checkout a.txt
+   13  git status
+   14  git log --pretty=oneline
+   15  cat a.txt
+   16  git reset --hard HEAD^
+   17  cat a.txt
+   18  vi a.txt
+   19  git add a.txt
+   20  git commit -m "28dayUpdate02" a.txt
+   21  git status
+   22  cat a.txt
+   23  git reflog
+   24  git reset hard 655fe01
+   25  git reset --hard 655fe01
+   26  git status
+   27  cat a.txt
+   28  git reflog
+   29  git reset --hard HEAD^
+   30  cat git
+   31  cat a.txt
+   32  git flog
+   33  git flog a.txt
+   34  git log
+   35  git log --pretty=oneline
+   36  cat a.txt
+   37  git branch
+   38  git branch test
+   39  git branch
+   40  git checkout test
+   41  git branch
+   42  vi a.txt
+   43  git add a.txt
+   44  git commit -m "updateBranch01" a.txt
+   45  cat a.txt
+   46  git checkout master
+   47  git branch
+   48  cat a.txt
+   49  git merge test
+   50  git status
+   51  cat a.txt
+   52  git branch -d test
+   53  git branch
+   54  cat a.txt
+   55  git checkout -b test1
+   56  git branch
+   57  vi a.txt
+   58  git status
+   59  git add a.txt
+   60  git status
+   61  git commit "updatetest1" a.txt
+   62  cat a.txt
+   63  git checkout master
+   64  git branch
+   65  git merge test1
+   66  git branch
+   67  cat a.txt
+   68  git branch -d test1
+   69  git breanch
+   70  git branch
+   71  touch b.txt
+   72  ls -l
+   73  git rm b.txt
+   74  ls -l
+   75  git rm b.txt
+   76  git rm --d b.txt
+   77  ls -l
+   78  git rm -f b.txt
+   79  ls -l
+   80  git rm -f b.txt
+   81  git b.txt
+   82  git --help
+   83  touch c.txt
+   84  ls -l
+   85  rm c.txt
+   86  ls -l
+   87  touch d.txt
+   88  git add d.txt
+   89  git commit -m "create02" d.txt
+   90  ls -l
+   91  git rm d.txt
+   92  ls -l
+   93  git rm b.txt
+   94  vi b.txt
+   95  git add b.txt
+   96  git commit -m "update02b" b.txt
+   97  git status
+   98  git rm b.txt
+   99  ls -l
+  100  vi a.txt
+  101  git status
+  102  git checkout a.txt
+  103  git status
+  104  vi a.txt
+  105  git status
+  106  git checkout -- a.txt
+  107  git status a.txt
+  108  git status
+  109  git reset HEAD b.txt
+  110  git status
+  111  git checkout --b.txt
+  112  git status
+  113  git checkout -- b.txt
+  114  git status
+  115  git commit "09update" a.txt
+  116  git commit -m "update10" a.txt
+  117  git status
+  118  git commit -m "delete" d.txt
+  119  git status
+  120  git branch
+  121  git branch test01
+  122  git checkout test01
+  123  git branch
+  124  vi test01
+  125  git status
+  126  git add a.txt
+  127  git status
+  128  git status
+  129  git branch
+  130  git add a.txt
+  131  git status
+  132  git commit "updatetest01" a.txt
+  133  git status
+  134  git checkout a.txt
+  135  git status
+  136  git checkout -- a.txt
+  137  git status
+  138  git add a.txt
+  139  git commit -m "up01" a.txt
+  140  git status
+  141  git branch
+  142  vi a.txt
+  143  git status
+  144  git add a.txt
+  145  git status
+  146  git commit -m "update 01" a.txt
+  147  git status
+  148  git checkout -- test01
+  149  git rm test01
+  150  git checkout -- test01
+  151  git status
+  152  git add test01
+  153  git status
+  154  git commit -m "up" test01
+  155  git status
+  156  git rm test01
+  157  git rm b.txt
+  158  git branch
+  159  cat a.txt
+  160  git branch master
+  161  git checkout master
+  162  cat a.txt
+  163  vi a.txt
+  164  git add a.txt
+  165  git status
+  166  git commit -m "delete" b.txt
+  167  git commit -m "update11" a.txt
+  168  git status
+  169  cat a.txt
+  170  git branch test01
+  171  git checkout test01
+  172  git status
+  173  cat a.txt
+  174  git checkout master
+  175  git branch
+  176  git merge test01
+  177  vi a.txt
+  178  git branch
+  179  cat a.txt
+  180  vi a.txt
+  181  cat a.txt
+  182  ls -l
+  183  git rm test01
+  184  git checkout test01
+  185  git branch
+  186  git checkout test01
+  187  git merge test01
+  188  git checkout test01
+  189  git rm test01
+  190  git rm -f test01
+  191  git status
+  192  git add a.txt
+  193  git commit a.txt
+  194  git status
+  195  git commit -m "update12" a.txt
+  196  git status
+  197  git commit -m "update12" a.txt
+  198  git status
+  199  git branch
+  200  git commit -m "fix Bug" a.txt
+  201  git status
+  202  git commit -m "fix bug"
+  203  git checkout test01
+  204  git branch
+  205  cat a.txt
+  206  git checkout master
+  207  cat a.txt
+  208  git checkout test01
+  209  ls -l
+  210  git rm b.txt
+  211  git status
+  212  git commit -m "delete" b.txt
+  213  git status
+  214  ls -l
+  215  git rm -f test01
+  216  git status
+  217  git commit -m "delete" test01
+  218  git status
+  219  ls -l
+  220  vi a.txt
+  221  cat a.txt
+  222  git status
+  223  git add a.txt
+  224  git commmit -m "up13" a.txt
+  225  git commit -m "up13" a.txt
+  226  git status
+  227  git checkout master
+  228  git branch
+  229  git merge test01
+  230  cat a.txt
+  231  git status
+  232  history
